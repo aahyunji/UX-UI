@@ -17,25 +17,26 @@
       <legend>로그인 폼</legend>
       <div class="user-email">
         <label for="userEmail">아이디</label>
-        <input type="email" id="userEmail" placeholder="example@naver.com" required="required" />
+        <input name="useremail" id="userEmail" placeholder="example@naver.com" required="required" />
       </div>
       <div class="user-password">
         <label for="userPassword">비밀번호</label>
-        <input type="password" id="userPassword" placeholder="*********" required="required" />
+        <input name="password" id="userPassword" placeholder="*********" required="required" />
       </div>
       <div class="ip-state-wrapper">
         <div class="login-state">
-          <input type="checkbox" id="loginState">
+          <input name="state" type="checkbox" id="loginState">
           <label for="">
             <span class="icon-check"></span>
             로그인 상태유지
           </label>
         </div>
         <div class="login-ip">
-          <input type="checkbox" id="LoginI">
+          <input name="ip" type="checkbox" id="LoginIp">
           <label for="loginIp">IP 보안</label>
         </div>
       </div>
+      <button type="submit" class="btn-login">로그인</button>
     </fieldset>
     </form>
 </body>
